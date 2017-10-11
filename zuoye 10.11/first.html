@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="first.css">
+	<title>MY</title>
+</head>
+<body>
+	<div id="top">
+		<h1>HELLO</h1><br>
+		<h2>MY NAME IS</h2>
+		<h1>LENNY LIN</h1>
+		<img src=""></img>
+		<h2 class="text-bot">THIS IS SOMETHING ABOUT ME</h2>
+	</div>
+	<section class="container">
+		<section class="figure-item">
+			<figure>
+				<img src="img/my.jpg" alt="my figure">
+			</fihure>
+		</section>
+		<section  class="container-item">
+			<h5>作业展示</h5>
+			<ul>
+			   <li>英文：大学四级</li>
+			   <li>CSS：熟练</li>
+			   <li>HTML：熟练</li>
+			   <li>JS：一般</li>
+			</ul>
+		</section>
+		<section class="container-item">
+			<h5>掌握技能</h5>
+			<ul>
+			   <li>英文：大学四级</li>
+			   <li>CSS：熟练</li>
+			   <li>HTML：熟练</li>
+			   <li>JS：一般</li>
+			</ul>
+		</section>
+		<section class="container-item">
+			<h5>联系方式</h5>
+			<ul>
+			   <li>姓名：林小燕</li>
+			   <li>邮箱：983806848@qq.com</li>
+			   <li>城市：广州</li>
+			   <li>电话：13660048642</li>
+			</ul>
+		</section>
+	</section>
+	<div id="foot">
+		<span>	&copy;2017 by lenny lam</span>
+	</div>
+
+
+
+<script>
+		// Register the service worker
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('./service-worker.js').then(function(registration) {
+		    // Registration was successful
+		    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+		}).catch(function(err) {
+		    // registration failed :(
+		    	console.log('ServiceWorker registration failed: ', err);
+		    });
+		}
+	</script>	
+</body>
+</html>
